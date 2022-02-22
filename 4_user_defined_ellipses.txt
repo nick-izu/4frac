@@ -1,0 +1,3 @@
+dfnGen FILEPATH/gen_4_user_ellipses.dat
+dfnFlow FILEPATH/dfn_explicit.in
+dfnTrans /None/none

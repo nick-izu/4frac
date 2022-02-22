@@ -1,0 +1,41 @@
+Author: Rosie Leone
+Date: 3/15/21
+
+This folder contains the input files for the dfnWorks output and the ECPM output for the 4 fracture benchmark case.
+
+The python file fix_paths.py can be run to update the files with the current filepath required for each of the dfn inputs.
+
+To run these files with dfnWorks please type:
+
+python fix_paths.py
+./run.sh
+
+
+Please note if you run this without changing anything DFNWorks will erase all the contents in the 4frac_example directory so please copy this if you wish to save the contents.
+
+Below is a description of the files in the folder:
+
+fix_paths.py - replaces 'FILEPATH' placeholders with absolute path to current working directory
+run.sh - launch run_flow.py with correct command line options
+run_flow.py - calls pydfnworks function to launch dfnWorks
+4_user_defined_ellipses.txt - contains paths to dfnGen and dfnFlow (PFLOTRAN) input files
+gen_4_user_ellipses.dat - dfnGen input file (points to define_4_user_ellipses.dat)
+define_4_user_ellipses.dat - specifies size, shape, and location of the user defined fractures
+dfn_explicit.in - dfnFlow (PFLOTRAN) input file
+aperture.dat - fracture apertures (dfnGen output)
+perm.dat - fracture permeabilities (dfnGen output)
+radii_Final.dat - fracture radii (dfnGen output)
+normal_vectors.dat - fracture orientation: unit vector normal to the fracture plane (dfnGen output)
+translations.dat - (x,y,z) coordinates of fracture centers (dfnGen output)
+polygons.dat - (x,y,z) coordinates of fracture verticies (for teams need this as input)
+
+mapdfn2pflotran.py - python scripts to create the ECM with dfn output
+anistropic_k.h5 - upscaled anistropic permeabilities
+isotropic_k.h5 - upscaled isotropic permeabilities
+materials.h5 - 1 denotes fracture cell, 0 denotes matrix
+porosity.h5 - upscaled porosity
+tortuosity.h5 - upscaled tortuosity
+
+SAND2021-3127 O
+
+Sandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy’s National Nuclear Security Administration under contract DE-NA0003525.
