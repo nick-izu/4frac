@@ -55,7 +55,14 @@ Translation:
 {400,0,200}
 {400,0,-400}
 
+/*****************************************************************************/
+//  userOrientationOption: 
+//	0 - Normal Vector -> Normal {x,y,z}
+//	1 - Trend / Plunge -> Trend_Plunge {trend, plunge} -> Must be degrees
+//  2 - Dip / Strike - > Dip_Strike {dip, strike} -> Must be degrees
+/*****************************************************************************/
 
+userOrientationOption: 0 
 
 /*****************************************************************************/
 //Normal Vecor for each ellipse (one per line)
