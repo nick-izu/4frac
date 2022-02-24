@@ -113,14 +113,14 @@ FLOW_CONDITION outflow
   TYPE 
      PRESSURE dirichlet
   /
-  PRESSURE 1.d6
+  PRESSURE 2.0d6
 END
 
 FLOW_CONDITION inflow
   TYPE
     PRESSURE dirichlet
   /
-  PRESSURE 1.001d6 
+  PRESSURE 1.0d6 
 END
 
 #=========================== condition couplers ===============================
