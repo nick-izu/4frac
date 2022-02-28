@@ -44,12 +44,12 @@ out_tort: no
 curvature of particles trajectory each segment, from intersection to intersection.
 If it's like a straight line, then the output is less frequent (in case of 
 "out_curv:yes", if "no",  the output file will contain every time step) */
-out_curv: yes 
+out_curv: no 
 /* output into avs file (GMV visualization, Paraview visualization) */
-out_avs:  yes 
+out_avs:  no 
 /* output into trajectories ascii files (veloc+posit+cell+fract+time) */
-out_traj: yes 
-out_fract: yes
+out_traj: no 
+out_fract: no
 
 /* temporary outputs (every time step from intersection to intersection)*/
 /* use outputs to file or memory buffer. Memory buffer by default */
