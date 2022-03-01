@@ -63,3 +63,4 @@ rewrite_file(filename_aper,b)
 rewrite_file(filename_perm,perm,three=True)
 
 DFN.dfn_flow()
+DFN.dfn_trans()
