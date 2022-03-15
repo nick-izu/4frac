@@ -62,7 +62,7 @@ Translation:
 //  2 - Dip / Strike - > Dip_Strike {dip, strike} -> Must be degrees
 /*****************************************************************************/
 
-userOrientationOption: 0 
+userOrientationOption: 1 
 
 /*****************************************************************************/
 //Normal Vecor for each ellipse (one per line)
