@@ -506,7 +506,7 @@ lengthCorrelatedAperture: {5e-5, 0.5}
 
 permOption: 0  //See above for options
 
-constantPermeability: 1e-6  //Constant permeability for all fractures 
+constantPermeability: 1e-12  //Constant permeability for all fractures 
 
 //=============================================================================
 
