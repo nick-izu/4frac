@@ -137,9 +137,9 @@ tdrw_porosity: 0.02
 tdrw_diffcoeff: 1.0e-5
 
 /********************  TIME ********************************************/
-timesteps: 2000000
+timesteps: 2592000000
 //units of time (years, days, hours, minutes) 
-time_units: years 
+time_units: hours 
 
 /**** flux weighted particles*/
 /**** in case of random initial positions of particles - it's aperture weighted **/
