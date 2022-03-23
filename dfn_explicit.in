@@ -76,9 +76,9 @@ END
 
 #=========================== times ============================================
 TIME
-  INITIAL_TIMESTEP_SIZE  1.d-5 s
-  FINAL_TIME 1000.d0 s
-  MAXIMUM_TIMESTEP_SIZE 1.d-5 s
+  INITIAL_TIMESTEP_SIZE  1.d-8 s
+  FINAL_TIME 1000.d0 d
+  MAXIMUM_TIMESTEP_SIZE 10.d0 d
   STEADY_STATE
 END
 
