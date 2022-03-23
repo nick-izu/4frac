@@ -61,8 +61,8 @@ END
 
 #=========================== output options ===================================
 OUTPUT
-#  TIMES y 0.01 0.05 0.1 0.2 0.5 1
-  TIMES y 1 100 1000
+#  TIMES s 0.01 0.05 0.1 0.2 0.5 1
+  TIMES s 1 100 1000
 #  FORMAT TECPLOT BLOCK
   PRINT_PRIMAL_GRID
   FORMAT VTK
@@ -76,9 +76,9 @@ END
 
 #=========================== times ============================================
 TIME
-  INITIAL_TIMESTEP_SIZE  1.d-8 y
-  FINAL_TIME 1000.d0 y
-  MAXIMUM_TIMESTEP_SIZE 10.d0 y
+  INITIAL_TIMESTEP_SIZE  1.d-8 s
+  FINAL_TIME 1000.d0 d
+  MAXIMUM_TIMESTEP_SIZE 10.d0 d
   STEADY_STATE
 END
 
