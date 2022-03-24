@@ -92,8 +92,8 @@ in_xmin: -500.0
 in_xmax: -500.0 
 in_ymin: -400.0 
 in_ymax:  400.0 
-in_zmin: -200.0 
-in_zmax:  200.0
+in_zmin: -300.0 
+in_zmax:  300.0
 
 /**** all particles are placed randomly over all fracture surface 
      (not only on boundary edges!) ************************************/
@@ -137,9 +137,9 @@ tdrw_porosity: 0.02
 tdrw_diffcoeff: 1.0e-5
 
 /********************  TIME ********************************************/
-timesteps: 2000000
+timesteps: 20000000
 //units of time (years, days, hours, minutes) 
-time_units: years 
+time_units: days 
 
 /**** flux weighted particles*/
 /**** in case of random initial positions of particles - it's aperture weighted **/
