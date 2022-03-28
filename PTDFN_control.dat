@@ -86,7 +86,7 @@ init_npart: 100
 
 /*** all particles start from the same region at in-flow boundary, in a range  
     {in_xmin, in_xmax,in_ymin, in_ymax, in_zmin, in_zmax} **************/
-init_oneregion: no    
+init_oneregion: yes    
 in_partn: 10000
 in_xmin: -500.0 
 in_xmax: -500.0 
