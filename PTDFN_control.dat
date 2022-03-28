@@ -76,12 +76,12 @@ streamline_routing: no
 /****init_nf: if yes - the same number of particles (init_partn) will be placed 
      on every boundary fracture edge on in-flow boundary, 
      equidistant from each other ****/
-init_nf: yes 
+init_nf: no 
 init_partn: 100
 
 /****init_eqd: if yes - particles will be placed on the same distance from
      each other on all over in-flow boundary edges ***********************/  
-init_eqd: yes  //maximum number of particles that user expects on one boundary edge
+init_eqd: no  //maximum number of particles that user expects on one boundary edge
 init_npart: 100
 
 /*** all particles start from the same region at in-flow boundary, in a range  
@@ -113,7 +113,7 @@ inm_porosity: 0.02
 inm_diffcoeff: 1.0e-12
 
 /*****  particles positions according to in-flow flux weight *********/
-init_fluxw: no //turn on this input option (don't forget to turn off rest of PARTICLES INITIAL POSITIONS options)
+init_fluxw: yes //turn on this input option (don't forget to turn off rest of PARTICLES INITIAL POSITIONS options)
 init_totalnumber: 100
 
 
