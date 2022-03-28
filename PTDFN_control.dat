@@ -114,7 +114,7 @@ inm_diffcoeff: 1.0e-12
 
 /*****  particles positions according to in-flow flux weight *********/
 init_fluxw: yes //turn on this input option (don't forget to turn off rest of PARTICLES INITIAL POSITIONS options)
-init_totalnumber: 10000
+init_totalnumber: 100
 
 
 /****************** FLOW AND FRACTURE PARAMETERS **********************/
