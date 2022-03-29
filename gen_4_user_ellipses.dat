@@ -466,7 +466,7 @@ Also, coordinates must be co-planar */
 
 //NOTE: Only one aperture type may be used at a time 
 
-aperture: 3  //choise of aperture option described above
+aperture: 2  //choise of aperture option described above
 
 //(**** 1)meanAperture and stdAperture for using LogNormal distribution.********)
 meanAperture:  -3 /*Mean value for aperture using  
@@ -475,7 +475,7 @@ stdAperture: 0.8  //Standard deviation
 
 /*(****** 2)apertureFromTransmissivity, first transmissivity is defined, 
   and then, using a cubic law, the aperture is calculated;***************/
-apertureFromTransmissivity: {1.6e-9, 0.8}
+apertureFromTransmissivity: {2.2e-9, 0.8}
     /* Transmissivity is calculated as transmissivity = F*R^k,
        where F is a first element in aperturefromTransmissivity,
        k is a second element and R is a mean radius of a polygon. 
