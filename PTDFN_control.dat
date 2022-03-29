@@ -77,7 +77,7 @@ streamline_routing: no
      on every boundary fracture edge on in-flow boundary, 
      equidistant from each other ****/
 init_nf: yes 
-init_partn: 100
+init_partn: 10000
 
 /****init_eqd: if yes - particles will be placed on the same distance from
      each other on all over in-flow boundary edges ***********************/  
