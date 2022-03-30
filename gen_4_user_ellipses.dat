@@ -44,10 +44,10 @@ layers:
     shape familiy section) 
 */   
 
-/*numOfRegions: 1 // There will be one region in the domain*/
+numOfRegions: 1 // There will be one region in the domain
 
-/*regions:
-{-500, 500, -500, 500, -500, 500}*/
+regions:
+{-500, 500, -500, 500, -500, 500}
 // Will create a region for sampling with
 // x-min: -5, x-max: 5
 // y-min: -10, y-max: 10
