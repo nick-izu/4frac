@@ -466,7 +466,7 @@ Also, coordinates must be co-planar */
 
 //NOTE: Only one aperture type may be used at a time 
 
-aperture: 3  //choise of aperture option described above
+aperture: 2  //choise of aperture option described above
 
 //(**** 1)meanAperture and stdAperture for using LogNormal distribution.********)
 meanAperture:  -3 /*Mean value for aperture using  
